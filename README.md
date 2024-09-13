@@ -23,8 +23,17 @@ dengan catatan, hanya ada di terminal itu aja. Jadi kalo buka terminal baru haru
 go run main.go
 ```
 
+## List of APIs
+- GET /api/v1/products
+- GET /api/v1/products/:id
+- POST /api/v1/checkout
 
+- POST /api/v1/orders/:id/confirm
+- GET /api/v1/orders/:id
 
+- POST /admin/products
+- PUT /admin/products/:id
+- DELETE /admin/products/:id
 
 
 
