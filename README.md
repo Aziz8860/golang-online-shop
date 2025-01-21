@@ -1,4 +1,4 @@
-# Online Shop Project
+# Online Shop API
 1. Jalankan docker untuk PostgreSQL
 
 ```
@@ -23,7 +23,15 @@ dengan catatan, hanya ada di terminal itu aja. Jadi kalo buka terminal baru haru
 go run main.go
 ```
 
-## List of APIs
+### Packages used
+- Gin
+- pgx
+
+### ERD
+![erd](https://github.com/user-attachments/assets/fecd9596-8f83-468f-959b-9f58f6c17d48)
+
+
+### List of APIs
 - GET /api/v1/products
 - GET /api/v1/products/:id
 - POST /api/v1/checkout
